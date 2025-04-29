@@ -10,7 +10,7 @@
   display: flex;
   padding: 100px 60px 200px 60px;
   border-radius: 80px 80px 0 0;
-  margin-top: -60px;
+  margin-top: -72px;
   box-shadow: 0 -20px 32px rgba(0, 0, 0, 0.043);
   gap: 20px;
 }
@@ -291,6 +291,10 @@
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+  .divs {
+    width: 88%;
+    margin: 0 auto;
+  }
   .content {
     margin-top: 100px;
   }
@@ -409,6 +413,9 @@
 @media (min-width: 769px) and (max-width: 1024px) {
   .divs {
     padding: 80px 40px;
+    margin: 0 auto;
+    margin-top: -72px;
+    width: 88%;
   }
 
   .header-text h1,
