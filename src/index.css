@@ -18,6 +18,11 @@
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(39, 135, 127);
 }
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 @media (max-width: 768px) {
   ::-webkit-scrollbar {
     width: 0em;
