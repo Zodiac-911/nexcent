@@ -52,11 +52,11 @@
     align-items: center;
     justify-content: center;
     height: auto;
-    padding: 10px 20px;
+    padding: 10px 20px 0 20px;
   }
 
   .topbar img {
-    height: 28px;
+    height: 36px;
     margin-bottom: 10px;
   }
 
@@ -67,14 +67,16 @@
   }
 
   .navbar div {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
     margin-bottom: 10px;
   }
 
   .btn {
-    margin-top: -12px;
-    padding: 4px 12px;
-    font-size: 12px;
+    padding: 8px 24px;
+    font-size: 18px;
+  }
+  .tpbr-btn {
+    display: none;
   }
 }

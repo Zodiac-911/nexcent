@@ -12,7 +12,7 @@ function Topbar() {
           <div>Community</div>
           <div>Blog</div>
           <div>Pricing</div>
-          <button className="btn">Register Now →</button>
+          <button className="btn tpbr-btn">Register Now →</button>
         </div>
       </div>
     </>
