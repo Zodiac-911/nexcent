@@ -1,7 +1,7 @@
 import "../styles/content.css";
 import "../styles/topbar.css";
 import illuOne from "../assets/illu1.png";
-import carossel from "../assets/crossel.png";
+import SponsorScroller from "./scrollbar.jsx";
 import people from "../assets/people.png";
 import buldings from "../assets/buldings.png";
 import hands from "../assets/hands.png";
@@ -33,16 +33,15 @@ function Content() {
         <div className="two divs" data-aos="fade-up">
           <h2>Our Clients</h2>
           <p>We have been working with some Fortune 500+ clients</p>
-          <img className="carossel-two" src={carossel} alt="" />
+          <SponsorScroller />
           <h2>Manage your entire community in a single system</h2>
           <p>Who is Nextcent suitable for?</p>
-          <div
-            className="cards-holder"
-            data-aos="fade-in"
-            data-aos-delay="50"
-            data-aos-duration="1500"
-          >
-            <div>
+          <div className="cards-holder">
+            <div
+              data-aos="flip-up"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
               <img src={people} alt="" />
               <h2>Membership Organisations</h2>
               <p>
@@ -50,7 +49,11 @@ function Content() {
                 membership renewals and payments
               </p>
             </div>
-            <div>
+            <div
+              data-aos="flip-up"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
               <img src={buldings} alt="" />
               <h2>National Associations</h2>
               <p>
@@ -58,7 +61,11 @@ function Content() {
                 membership renewals and payments
               </p>
             </div>
-            <div>
+            <div
+              data-aos="flip-up"
+              data-aos-delay="50"
+              data-aos-duration="1500"
+            >
               <img src={hands} alt="" />
               <h2>Clubs And Groups</h2>
               <p>

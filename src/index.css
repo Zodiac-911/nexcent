@@ -18,3 +18,8 @@
 ::-webkit-scrollbar-thumb:hover {
   background: rgb(39, 135, 127);
 }
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 0em;
+  }
+}
