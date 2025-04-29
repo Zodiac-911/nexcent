@@ -10,7 +10,6 @@
 .upper {
   display: flex;
   justify-content: space-between;
-  padding: 0 100px 0 100px;
 }
 .f-logo {
   width: 180px;
