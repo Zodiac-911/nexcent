@@ -11,16 +11,12 @@ import payment from "../assets/payment.png";
 import peopleTwo from "../assets/people-2.png";
 import loginTwo from "../assets/login-2.png";
 import tesla from "../assets/tesla.png";
-import carosselTwo from "../assets/crossel-2.png";
-import bnademOne from "../assets/bnadem1.png";
-import bnademTwo from "../assets/bnadem2.png";
-import bnademThree from "../assets/bnadem3.png";
 
 function Content() {
   return (
     <>
       <div className=" content">
-        <div className="one divs">
+        <div className="one divs" data-aos="fade-up">
           <div className="header-text">
             <div>
               <h1>Lessons and insight</h1>
@@ -34,13 +30,18 @@ function Content() {
           </div>
           <img src={illuOne} alt="" />
         </div>
-        <div className="two divs">
+        <div className="two divs" data-aos="fade-up">
           <h2>Our Clients</h2>
           <p>We have been working with some Fortune 500+ clients</p>
           <img className="carossel-two" src={carossel} alt="" />
           <h2>Manage your entire community in a single system</h2>
           <p>Who is Nextcent suitable for?</p>
-          <div className="cards-holder">
+          <div
+            className="cards-holder"
+            data-aos="fade-in"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+          >
             <div>
               <img src={people} alt="" />
               <h2>Membership Organisations</h2>
@@ -80,7 +81,7 @@ function Content() {
             </div>
           </div>
         </div>
-        <div className="three divs">
+        <div className="three divs" data-aos="fade-up">
           <div className="text-three">
             <div>
               <h2>
@@ -112,7 +113,7 @@ function Content() {
             </div>
           </div>
         </div>
-        <div className="four divs">
+        <div className="four divs" data-aos="fade-up">
           <div className="login-holder">
             <img src={loginTwo} alt="" />
             <div>
@@ -127,7 +128,7 @@ function Content() {
             </div>
           </div>
         </div>
-        <div className="five divs">
+        <div className="five divs" data-aos="fade-up">
           <img className="tesla" src={tesla} alt="" />
           <div className="text-five">
             <p>
@@ -140,24 +141,27 @@ function Content() {
             <h3>Tim Smith</h3>
             <p>British Dragon Boat Racing Association</p>
             <div>
-              <img className="carossel" src={carosselTwo} alt="" />
               <button className="btn">
                 Meet all customers <span> →</span>
               </button>
             </div>
           </div>
         </div>
-        <div className="six divs">
+        <div className="six divs" data-aos="fade-up">
           <h2>Caring is the new marketing</h2>
           <p>
             The Nextcent blog is the best place to read about the latest
             membership insights, trends and more. See who's joining the
             community, read about how our community are increasing their
-            membership income and lot's more.​
+            membership income and lot's more.
           </p>
           <div className="projects-holder">
             <div className="project">
-              <div className="bnademwa7ed bnyadm"></div>
+              <div
+                className="bnademwa7ed bnyadm"
+                data-aos="fade-right"
+                data-aos-duration="1500"
+              ></div>
 
               <div className="txt-btn-six">
                 <p>Creating Streamlined Safeguarding Processes with OneRen</p>
@@ -167,7 +171,11 @@ function Content() {
               </div>
             </div>
             <div className="project">
-              <div className="bnademzouj bnyadm"></div>
+              <div
+                className="bnademzouj bnyadm"
+                data-aos="fade-in"
+                data-aos-duration="1500"
+              ></div>
               <div className="txt-btn-six">
                 <p>Creating Streamlined Safeguarding Processes with OneRen</p>
                 <button className="btn">
@@ -176,7 +184,11 @@ function Content() {
               </div>
             </div>
             <div className="project ">
-              <div className="bnademtlata bnyadm"></div>
+              <div
+                className="bnademtlata bnyadm"
+                data-aos="fade-left"
+                data-aos-duration="1500"
+              ></div>
               <div className="txt-btn-six">
                 <p>Creating Streamlined Safeguarding Processes with OneRen</p>
                 <button className="btn">
@@ -186,7 +198,7 @@ function Content() {
             </div>
           </div>
         </div>
-        <div className="seven divs">
+        <div className="seven divs" data-aos="fade-up">
           <h1>Pellentesque suscipit fringilla libero eu.</h1>
           <button className="btn">Get a Demo →</button>
         </div>
