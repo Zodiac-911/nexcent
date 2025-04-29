@@ -37,9 +37,10 @@ function App() {
           rotationX={45}
           rotationY={0}
           rotationZ={0}
-          color1="#94ffd1"
-          color2="#6bf5ff"
+          color1="#47eddd"
+          color2="#ffffff"
           color3="#ffffff"
+          color4="#ffffff"
           reflection={0.1}
           // View (camera) props
           cAzimuthAngle={170}
