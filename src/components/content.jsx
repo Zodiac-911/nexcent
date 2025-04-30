@@ -11,12 +11,13 @@ import payment from "../assets/payment.png";
 import peopleTwo from "../assets/people-2.png";
 import loginTwo from "../assets/login-2.png";
 import tesla from "../assets/tesla.png";
+import Topbar from "./topbar.jsx";
 
 function Content() {
   return (
     <>
       <div className=" content">
-        <div className="one divs" data-aos="fade-up">
+        <div className="one divs" id="one" data-aos="fade-up">
           <div className="header-text">
             <div>
               <h1>Lessons and insight</h1>
@@ -30,7 +31,7 @@ function Content() {
           </div>
           <img src={illuOne} alt="" />
         </div>
-        <div className="two divs" data-aos="fade-up">
+        <div className="two divs" id="two" data-aos="fade-up">
           <h2>Our Clients</h2>
           <p>We have been working with some Fortune 500+ clients</p>
           <SponsorScroller />
@@ -88,7 +89,7 @@ function Content() {
             </div>
           </div>
         </div>
-        <div className="three divs" data-aos="fade-up">
+        <div className="three divs" id="three" data-aos="fade-up">
           <div className="text-three">
             <div>
               <h2>
@@ -154,7 +155,7 @@ function Content() {
             </div>
           </div>
         </div>
-        <div className="six divs" data-aos="fade-up">
+        <div className="six divs" id="six" data-aos="fade-up">
           <h2>Caring is the new marketing</h2>
           <p>
             The Nextcent blog is the best place to read about the latest

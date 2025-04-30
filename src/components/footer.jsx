@@ -8,7 +8,7 @@ import youtube from "../assets/youtube.png";
 function Footer() {
   return (
     <>
-      <div className="footer">
+      <div className="footer" id="footer">
         <div className="upper">
           <div className="f-one fc">
             <img className="f-logo" src={logo} alt="" />

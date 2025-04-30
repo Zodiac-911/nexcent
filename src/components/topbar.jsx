@@ -1,5 +1,6 @@
 import "../styles/topbar.css";
 import logo from "../assets/logo.png";
+import Content from "./content";
 
 function Topbar() {
   return (
@@ -7,11 +8,21 @@ function Topbar() {
       <div className=" topbar ">
         <img src={logo} alt="Nextcent" />
         <div className="navbar">
-          <div>Home</div>
-          <div>Features</div>
-          <div>Community</div>
-          <div>Blog</div>
-          <div>Pricing</div>
+          <div>
+            <a href="#one">Home</a>
+          </div>
+          <div>
+            <a href="#three">Features</a>
+          </div>
+          <div>
+            <a href="#two">Community</a>
+          </div>
+          <div>
+            <a href="#six">Blog</a>
+          </div>
+          <div>
+            <a href="#footer">Pricing</a>
+          </div>
           <button className="btn tpbr-btn">Register Now →</button>
         </div>
       </div>
